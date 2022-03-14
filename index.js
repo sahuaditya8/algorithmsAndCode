@@ -39,8 +39,8 @@ app.get('/algorithms', function (req, res) {
    res.render('algorithms');
 })
 
-app.get('/primeNumber', function (req, res) {
-   res.render('primeNumber');
+app.get('/algorithms/basic/primeNumber', function (req, res) {
+   res.render('algorithms/basic/primeNumber');
 })
 
 // This responds a POST request for the homepage
